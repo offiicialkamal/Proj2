@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(rgb(235, 245, 247), green, blue)
+}
+.main-div{
+    height: 50%;
+    width: 70%;
+    background-color: rgb(247, 255, 200);
+    padding: 10%;
+}
