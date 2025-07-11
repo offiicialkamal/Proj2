@@ -23,5 +23,6 @@ def convert_to_binary(decimal):
     bin = ""
     for binary in binary_list:
         bin = str(binary) + bin
-    return bin\
+        
+    return bin
     
