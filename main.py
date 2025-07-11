@@ -24,7 +24,7 @@ def home2():
 @app.route("/find_binary", methods=["GET", "POST"])
 def home3():
     if request.method == "GET":
-        return render_template("binary_to_decimal.py")
+        return render_template("decimal_to_binary.html")
     
     elif request.method == "POST":
         data = request.get_json()
