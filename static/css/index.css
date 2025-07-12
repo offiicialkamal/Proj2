@@ -1,9 +1,27 @@
 body{
-    background-color: rgb(rgb(235, 245, 247), green, blue)
+    height: 100%;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/736x/a0/ca/66/a0ca66b76fac9e9710acb0578024609f.jpg");
 }
-.main-div{
-    height: 50%;
-    width: 70%;
-    background-color: rgb(247, 255, 200);
-    padding: 10%;
+#main-div{
+    height: 60vw;
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 19%;
+    display:flex;
+    /* border: 10px solid rgb(179, 32, 32); */
+    background-color: rgb(52, 100, 141);
+    box-shadow:0px 0px 15px blue;
+    justify-content: space-evenly;
+}
+.box{
+    border-top: 7px solid yellow;
+    border-bottom: 7px solid blue;
+    background-color: rgb(48, 77, 102);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 3%;
+    margin-top: 3%;
+ 
 }
