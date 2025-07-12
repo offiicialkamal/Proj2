@@ -7,6 +7,7 @@ app = Flask(__name__)
 def home():
     if request.method == "GET":
         return render_template("index.html")
+    
 
 @app.route("/find_decimal", methods=["GET", "POST"])
 def home2():
